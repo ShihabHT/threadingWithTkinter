@@ -40,4 +40,3 @@ button2 = tk.Button(root, text='DECIDE', command=lambda: threading.Thread(target
 button2.pack()
 
 root.mainloop()
-
