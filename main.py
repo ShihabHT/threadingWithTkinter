@@ -21,7 +21,7 @@ def change_egg():
         label.config(text='Ostrich Egg')
 
 
-button1 = tk.Button(root, text="Convert Egg", command=threading.Thread(target=change_egg).start())
+button1 = tk.Button(root, text="Convert Egg", command=threading.Thread(target=change_egg).start)
 button1.pack()
 
 
@@ -36,7 +36,7 @@ def make_decision():
 
 label1 = tk.Label(root, text="But Chicken came first", bg="red")
 label1.pack()
-button2 = tk.Button(root, text='DECIDE', command=threading.Thread(target=make_decision).start())
+button2 = tk.Button(root, text='DECIDE', command=threading.Thread(target=make_decision).start)
 button2.pack()
 
 root.mainloop()
